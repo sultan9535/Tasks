@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+</head>
+<style>
+    
+    .content{
+        padding: 30px 20px;
+        background-color: skyblue;
+        margin: 10px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    .padding{
+        padding: 30px 20px;
+        background-color: lightgreen;
+        margin: 10px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    .border{
+        padding: 30px 60px;
+        background-color: rgb(255, 69, 0);
+        margin: 10px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    .margin{
+        padding: 30px 30px;
+        background-color: rgb(236, 114, 27);
+        margin: 10px;
+        border: 2px dotted black;
+        text-align: center;
+    }
+    </style>
+<body>
+    <center><h1>BOX MODEL</h1></center>
+    <div class="main"></div>
+    <div class="margin">
+        <h3>Margin</h3>
+        <div class="border">
+            <h3>Border</h3>
+            <div class="padding">
+                <h3>padding</h3>
+                <div class="content">
+                    <h3>content</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
